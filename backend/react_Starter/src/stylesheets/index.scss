@@ -1,0 +1,78 @@
+@import "colors";
+@import "fonts";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:$Roboto_bold ;
+    src: local($Roboto_bold),
+     url("../assets/fonts/RobotoMono-Bold.ttf") format("truetype");
+    }
+ @font-face {
+        font-family:$Roboto_bolditalic ;
+        src: local($Roboto_bolditalic),
+         url("../assets/fonts/RobotoMono-BoldItalic.ttf") format("truetype");
+        }
+@font-face {
+            font-family:$Roboto_Extralight ;
+            src: local($Roboto_Extralight),
+             url("../assets/fonts/RobotoMono-ExtraLight.ttf") format("truetype");
+            }
+@font-face {
+                font-family:$Roboto_ExtralightItalic ;
+                src: local($Roboto_ExtralightItalic),
+                 url("../assets/fonts/RobotoMono-ExtraLightItalic.ttf") format("truetype");
+                }
+@font-face {
+            font-family:$Roboto_Italic;
+            src: local($Roboto_Italic),
+            url("../assets/fonts/RobotoMono-Italic.ttf") format("truetype");
+                    }
+ 
+@font-face {
+    font-family:$Roboto_light ;
+    src: local($Roboto_light),
+     url("../assets/fonts/RobotoMono-Light.ttf") format("truetype");
+    }           
+
+@font-face {
+    font-family:$Roboto_medium;
+    src: local($Roboto_medium),
+     url("../assets/fonts/RobotoMono-Medium.ttf") format("truetype");
+    }
+
+@font-face {
+    font-family:$Roboto_mediumItalic ;
+    src: local($Roboto_mediumItalic),
+     url("../assets/fonts/RobotoMono-MediumItalic.ttf") format("truetype");
+    }
+@font-face {
+        font-family:$Roboto_regular;
+        src: local($Roboto_regular),
+         url("../assets/fonts/RobotoMono-Regular.ttf") format("truetype");
+        }
+
+@font-face {
+    font-family:$Roboto_semibold;
+    src: local($Roboto_semibold),
+     url("../assets/fonts/RobotoMono-SemiBold.ttf") format("truetype");
+    }
+
+@font-face {
+    font-family:$Roboto_semibolditalic;
+    src: local($Roboto_semibolditalic),
+     url("../assets/fonts/RobotoMono-SemiBoldItalic.ttf") format("truetype");
+    }
+@font-face {
+        font-family:$Roboto_thin;
+        src: local($Roboto_thin),
+         url("../assets/fonts/RobotoMono-Thin.ttf") format("truetype");
+        }
+
+@font-face {
+    font-family:$Roboto_thinitalic;
+    src: local($Roboto_thinitalic),
+     url("../assets/fonts/RobotoMono-ThinItalic.ttf") format("truetype");
+    }
